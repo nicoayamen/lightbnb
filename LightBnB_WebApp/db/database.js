@@ -9,8 +9,6 @@ const pool = new Pool({
   database: "lightbnb",
 });
 
-
-
 /// Users
 
 /**
@@ -166,9 +164,6 @@ const getAllProperties = function (options, limit = 10) {
       throw err;
     });
 };
-
-
-
 
 /**
  * Add a property to the database
